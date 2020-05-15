@@ -12,6 +12,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static(publicFolder));
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
 
 app.listen(3001, () => {
   console.log('Server listening on port 3001!');
