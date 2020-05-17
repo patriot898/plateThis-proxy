@@ -31,9 +31,9 @@ services:
       image: mongo:latest
 
     reviews_database:
-      image: reviews_data:latest
+      image: reviews_data
 
     carousel_database:
-      image: carousel_data:latest
+      image: carousel_data
 
 
