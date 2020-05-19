@@ -29,8 +29,9 @@
 }
 
 #main-body {
-  width: fit-content;
+  width: 100%;
   min-width: 1184px;
+  display: inline-block;
 }
 
 #restaurant-info {
@@ -61,10 +62,16 @@
   background-image: url(https://yelp-images-hr.s3-us-west-1.amazonaws.com/collections.png);
   width: 1280px;
   height: 849px;
+  display: inline-block;
 }
 
 #search {
   min-height: 48px;
   border-color: #eeeeef;
   min-width: 375px;
+}
+
+#reviews {
+  display: inline-block;
+
 }

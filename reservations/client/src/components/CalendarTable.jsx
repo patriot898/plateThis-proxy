@@ -25,7 +25,7 @@ const determineBorder = (props) => {
 
 const CalendarDate = styled.td`
   width: 30px;
-  height: 35px;
+  height: 30px;
   min-height: 30px;
   border: ${determineBorder};
   border-radius: 50%;
